@@ -138,10 +138,10 @@
   }
   .hero__pill .stars{display:inline-flex;gap:1px}
   .hero__pill .stars svg{width:14px;height:14px;fill:var(--sol-d)}
-  .hero h1 em{font-style:normal;color:var(--naranja-d);position:relative;white-space:nowrap}
-  .hero h1 em::after{
-    content:"";position:absolute;left:0;right:0;bottom:.02em;height:.22em;border-radius:99px;
-    background:rgba(255,201,77,.55);z-index:-1;
+  .hero h1 em{
+    font-style:normal;color:var(--naranja-d);white-space:nowrap;display:inline-block;
+    background:linear-gradient(transparent 64%,rgba(255,201,77,.62) 64%,rgba(255,201,77,.62) 92%,transparent 92%);
+    padding:0 .04em;
   }
   .hero__sub{font-size:1.08rem;margin:18px 0 26px;max-width:520px}
   .hero__acciones{display:flex;flex-wrap:wrap;gap:12px}
